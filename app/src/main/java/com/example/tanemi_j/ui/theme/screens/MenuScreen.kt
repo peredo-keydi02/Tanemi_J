@@ -147,10 +147,12 @@ fun MenuScreen(navController: NavHostController, authViewModel: AuthViewModel) {
                 shape = RoundedCornerShape(20.dp),
                 colors = ButtonDefaults.buttonColors(containerColor = Color.Transparent),
                 modifier = Modifier.fillMaxWidth(0.8f)
+                    .height(50.dp)
             ) {
                 Box(
                     modifier = Modifier
                         .fillMaxSize()
+                        .height(50.dp)
                         .background(
                             brush = Brush.linearGradient(
                                 colors = listOf(
